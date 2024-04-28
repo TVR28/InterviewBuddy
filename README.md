@@ -9,6 +9,7 @@ Transforming Feedback into Growth with AI-Enhanced Interview Insights using AI.
 - `smtplib`
 - `Google Gemini Pro API`
 - `React`
+- `rsuite`
 
 ## Tasks
 **1. Transcription of the Interview**
