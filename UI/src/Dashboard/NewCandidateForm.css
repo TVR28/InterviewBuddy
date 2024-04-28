@@ -1,0 +1,13 @@
+.candidate-form-close-button {
+    top: 400px;
+    left: 370px;
+}
+
+.form-popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add shadow for depth */
+    z-index: 999; /* Ensure the pop-up is on top of other elements */
+    max-width: 80%; /* Limit width for better readability */
+}
