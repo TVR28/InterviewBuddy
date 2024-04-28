@@ -10,6 +10,7 @@ InterviewBuddy is an advanced interview assistance tool designed to enhance hiri
 - [Key Tools and Technologies](#Key-Tools-and-Technologies)
 - [Core Features & Functions](#Core-Features-&-Functions)
 - [Personalised Email Communication](#personalised-email-communication)
+- [Contributing](#contributing)
 
 ## Model Architecture
 ![architecture](https://github.com/TVR28/InterviewBuddy/assets/91713140/6d739eb6-85e1-437c-a7b4-8eabebfd0ff5)
@@ -108,4 +109,11 @@ Warm regards,
 [Company Name]  
 [Contact Information]
 ```
+## Contributing
 
+Contributions to ATSPro are welcome! If you'd like to contribute, please follow these steps:
+
+1. Fork the repository to your own GitHub account.
+2. Create a new branch for your feature or bug fix.
+3. Commit your changes and push them to your fork.
+4. Submit a pull request with a clear description of your changes.
