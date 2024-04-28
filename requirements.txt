@@ -5,5 +5,5 @@ Pillow
 PyPDF2
 fpdf
 google-generativeai
-smtplib
+secure-smtplib
 email-validator
