@@ -1,7 +1,5 @@
-# InterviewBuddy 👨🏻‍💻📄
+# InterviewBuddy 👨🏻‍💻📄🚀
 ## Transforming Feedback into Growth with AI-Enhanced Interview Insights using AI.
-
-Welcome to InterviewBuddy! 🚀
 
 InterviewBuddy is an advanced interview assistance tool designed to enhance hiring quality and productivity by utilizing AI to provide deep insights into each interview process. Our system automatically generates a transcript from interviews conducted on Google Meet, analyzes it alongside the candidate's resume and interviewer requirements, and seamlessly integrates this information into a newly created candidate profile. Once the interview concludes, InterviewBuddy crafts a detailed feedback report for the interviewer, assessing how well the candidate's responses and profile align with the job role. This analysis aids interviewers in making informed decisions by highlighting strengths and areas for potential improvement. Additionally, if a candidate is not selected, InterviewBuddy generates a personalized feedback report and an email tailored to the candidate, offering constructive feedback on their performance and specific advice on areas to enhance. This feedback is crucial for candidates as it provides clear, actionable insights that can significantly aid in their job search journey, helping them understand and improve on aspects critical to their career progression.
 
