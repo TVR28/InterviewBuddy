@@ -1,5 +1,13 @@
 # InterviewBuddy 👨🏻‍💻📄
-Transforming Feedback into Growth with AI-Enhanced Interview Insights.
+Transforming Feedback into Growth with AI-Enhanced Interview Insights using AI.
+
+##Tools
+- `PyPDF2`
+- `streamlit`
+- `EmailMessage`
+- `fpdf`
+- `smtplib`
+- `Google Gemini Pro API`
 
 ## Tasks
 **1. Transcription of the Interview**
