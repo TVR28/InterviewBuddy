@@ -115,7 +115,8 @@ def generate_feedback_report(interview_transcript_text, resume_text, interviewer
     
     # Add the combined text to the PDF, wrapping long lines
     for line in feedback_text.split('\n'):
-        pdf.multi_cell(180, 5, txt=line, ln=True)
+        pdf.multi_cell(180, 5, txt=line)
+        pdf.ln(5)
     
     # Save the PDF in a temporary buffer
     feedback_pdf = io.BytesIO()
@@ -199,8 +200,9 @@ def generate_candidate_feedback_report(interview_transcript_text, resume_text, i
     pdf.set_font("Arial", size = 11)
     
     # Add the combined text to the PDF, wrapping long lines
-    for line in candidate_feedback_text.split('\n'):
-        pdf.multi_cell(180, 5, txt=line, ln=True)
+    for line in feedback_text.split('\n'):
+        pdf.multi_cell(180, 5, txt=line)
+        pdf.ln(5)
     
     # Save the PDF in a temporary buffer
     candidate_feedback_pdf = io.BytesIO()
@@ -406,10 +408,15 @@ if selected == "Dashboard":
                     st.info(f"Feedback sent to {candidate['name']}'s email.")
             
 if selected == "Profile":
-    st.subheader("profile Settings")
+    st.markdown("<h1 style='text-align:center; font-size:45px; color:#FF4B4B'>Profile Settings Here</h1>",unsafe_allow_html=True)
     
     
     st.write("---")
+    
+    
+    
+    
+    st.markdown("<h1 style='text-align:center; font-size:45px; color:#FF4B4B'>Contact Form</h1>",unsafe_allow_html=True)
     colmus = st.columns([4,2])
     with colmus[0]:
         st.subheader(":mailbox: Get In Touch With Me!")
