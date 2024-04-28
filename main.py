@@ -1,5 +1,6 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
+from streamlit_lottie import st_lottie
 import base64
 import io
 from dotenv import load_dotenv
@@ -14,6 +15,7 @@ import json
 from smtplib import SMTP_SSL
 from email.message import EmailMessage
 from mimetypes import guess_type
+import requests
 
 company_name = "Apple"
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
@@ -252,7 +254,7 @@ def on_submit1_clicked():
 
 selected = option_menu(
         menu_title = None,  #required
-        options = ["Home", "Dashboard","About"], #required
+        options = ["Home", "Dashboard","Profile"], #required
         icons = ['house','star','person'],
         menu_icon = "cast",
         default_index=0,
@@ -275,7 +277,32 @@ if selected == 'Home':
         st.image('./assets/interview.jpg',use_column_width=True, output_format="JPG")
     with col[1]:
         with st.container():
-            st.markdown("<h6 style='text-align:justify; font-size:20px; color:#FFFFFF'>Welcome to Interview Buddy, where we transform interview feedback into actionable growth using cutting-edge AI technology. Our platform offers a seamless integration of AI-enhanced tools to provide deep insights from your interviews. From automatic transcription using popular platforms like Google Meet and Zoom to detailed analysis with the Google Gemini Pro LLM, we ensure every aspect of your interview is captured and evaluated. Our comprehensive feedback reports not only highlight a candidate's strengths and areas for improvement but also align their responses with the job's requirements. Whether you're an interviewer looking to refine your hiring process or a candidate striving for self-improvement, Interview Buddy is your go-to resource for fostering professional development through precise, personalized feedback. Start your journey towards effective interviewing with us today!</h6>",unsafe_allow_html=True)
+            st.markdown("<h6 style='text-align:justify; font-size:18px; color:#FFFFFF'>Welcome to Interview Buddy, where we transform interview feedback into actionable growth using cutting-edge AI technology. Our platform offers a seamless integration of AI-enhanced tools to provide deep insights from your interviews. From automatic transcription using popular platforms like Google Meet and Zoom to detailed analysis with the Google Gemini Pro LLM, we ensure every aspect of your interview is captured and evaluated. Our comprehensive feedback reports not only highlight a candidate's strengths and areas for improvement but also align their responses with the job's requirements. Whether you're an interviewer looking to refine your hiring process or a candidate striving for self-improvement, Interview Buddy is your go-to resource for fostering professional development through precise, personalized feedback. Start your journey towards effective interviewing with us today!</h6>",unsafe_allow_html=True)
+            
+            st.subheader(" ")
+    st.write("\n")
+    st.write("\n")
+    st.write("\n")
+    
+    st.markdown("<h1 style='text-align:center; font-size:45px; color:#FF4B4B'>Need For InterviewBuddy</h1>",unsafe_allow_html=True)
+    
+    column = st.columns([2,1])
+    with column[1]:
+        st.image('./assets/rejection.png',use_column_width=True, output_format="JPG")
+    with column[0]:
+        with st.container():
+            st.markdown("<h6 style='text-align:justify; font-size:18px; color:#FFFFFF'>InterviewBuddy harnesses advanced AI to transform traditional interviews into strategic, insightful assessments. It enhances interviewer decision-making by analyzing interview transcriptions alongside resumes and job requirements, providing a detailed match and performance analysis. For candidates, it offers constructive, personalized feedback, helping them identify strengths and areas for improvement, thereby improving their career development prospects.</h6>",unsafe_allow_html=True)
+            
+            st.subheader(" ")
+            
+    st.write("\n")
+    
+    st.markdown("<h1 style='text-align:center; font-size:45px; color:#FF4B4B'>Our Mission</h1>",unsafe_allow_html=True)
+    
+    columns = st.columns([1,15,1])
+    with columns[1]:
+        with st.container():
+            st.markdown("<h6 style='text-align:center; font-size:22px; color:#FFFFFF'>InterviewBuddy is committed to revolutionizing the interview process by merging AI-driven insights with human expertise to foster more informed hiring decisions and promote candidate growth. Our mission is to make every interview a valuable experience, empowering employers to find the perfect match for their teams and enabling candidates to enhance their professional skills, thereby setting new standards for fairness and effectiveness in recruitment.</h6>",unsafe_allow_html=True)
             
             st.subheader(" ")
 
@@ -378,5 +405,51 @@ if selected == "Dashboard":
                     send_mail(SENDER_EMAIL, receiver_email, MAIL_PASSWORD, subject, personalised_email, file_name=f"{candidate['name']}_feedback.pdf", file_data=candidate_feedback_pdf_bytes)
                     st.info(f"Feedback sent to {candidate['name']}'s email.")
             
-if selected == "About":
-    st.subheader("About the App")
+if selected == "Profile":
+    st.subheader("profile Settings")
+    
+    
+    st.write("---")
+    colmus = st.columns([4,2])
+    with colmus[0]:
+        st.subheader(":mailbox: Get In Touch With Me!")
+
+        contact_form = """
+        <form action="https://formsubmit.co/tvrr28@uw.edu" method="POST">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="text" name="name" placeholder="Your name" required>
+            <input type="email" name="email" placeholder="Your email" required>
+            <textarea name="message" placeholder="Your message here"></textarea>
+            <button type="submit">Send</button>
+        </form>
+        """
+
+        st.markdown(contact_form, unsafe_allow_html=True)
+
+        # Use Local CSS File
+        def local_css(file_name):
+            with open(file_name) as f:
+                st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+
+
+        local_css("style/style.css")
+    
+    with colmus[1]:
+        def load_lottieurl(url: str):
+            r = requests.get(url)
+            if r.status_code != 200:
+                return None
+            return r.json()
+
+        lottie_email = load_lottieurl("https://lottie.host/0d09005c-3679-4613-9f02-2af48f3fa591/OZsXgl4mNA.json")
+        
+        st_lottie(
+            lottie_email,
+            speed=0.01,
+            reverse=False,
+            loop=True,
+            quality='High',
+            height=300,
+            width=300,
+            key=None
+        )
