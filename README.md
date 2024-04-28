@@ -2,12 +2,16 @@
 
 InterviewBuddy is an advanced interview assistance tool designed to enhance hiring quality and productivity by utilizing AI to provide deep insights into each interview process. Our system automatically generates a transcript from interviews conducted on Google Meet, analyzes it alongside the candidate's resume and interviewer requirements, and seamlessly integrates this information into a newly created candidate profile. Once the interview concludes, InterviewBuddy crafts a detailed feedback report for the interviewer, assessing how well the candidate's responses and profile align with the job role. This analysis aids interviewers in making informed decisions by highlighting strengths and areas for potential improvement. Additionally, if a candidate is not selected, InterviewBuddy generates a personalized feedback report and an email tailored to the candidate, offering constructive feedback on their performance and specific advice on areas to enhance. This feedback is crucial for candidates as it provides clear, actionable insights that can significantly aid in their job search journey, helping them understand and improve on aspects critical to their career progression.
 
+
 ## Sections
 - [Why is it Highly Essential?](#why-is-it-highly-essential)
 - [What Motivated Us?](#what-motivated-us)
 - [Tools](#tools)
 - [Tasks](#tasks)
 - [Personalised Email Communication](#personalised-email-communication)
+
+## Model Architecture
+<img width="584" alt="image" src="https://github.com/TVR28/InterviewBuddy/assets/91713140/7455378c-fc1d-4b34-87f9-3e6789b42f43">
 
 ## Why is it Highly Essential?
 In today's highly competitive job market, the demand for precise and constructive feedback is more critical than ever. InterviewBuddy elevates the interview process by integrating advanced AI technologies to analyze interviews comprehensively. This approach not only refines hiring decisions but also enhances the developmental aspects of interviews. For interviewers, it offers deep insights into a candidate’s suitability, helping to identify the best fit for the organization and reduce the likelihood of costly hiring mistakes. For candidates, it provides clear and actionable feedback, which is vital for personal development and future interview preparations. By fostering a culture of feedback and learning, InterviewBuddy ensures that both parties can grow from each interaction, thereby making the entire recruitment process more transparent, effective, and equitable.
