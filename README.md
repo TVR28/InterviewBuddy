@@ -88,6 +88,8 @@ The inspiration for InterviewBuddy was driven by a glaring need to bridge the si
 8. **Signature**
    - End with a professional closing and include the interviewer’s name, position, and contact information.
 
+![Screenshot (713)](https://github.com/TVR28/InterviewBuddy/assets/91713140/c8a0b07b-93c3-4eb2-bd7a-a9ef71fb8421)
+
 ## Sample Mail
 ```Mail
 Subject: Update on Your Application for [Job Title] at [Company Name]
