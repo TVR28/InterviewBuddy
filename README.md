@@ -4,7 +4,7 @@ InterviewBuddy is an advanced interview assistance tool designed to enhance hiri
 
 ![Screenshot (716)](https://github.com/TVR28/InterviewBuddy/assets/91713140/48d5bf49-347c-4a0c-a725-fd734dc7264c)
 
-Access Interview Buddy🚀 [Here](https://interviewbuddy-uwbhacksai.streamlit.app/)
+#### Access Interview Buddy🚀 [Here](https://interviewbuddy-uwbhacksai.streamlit.app/)
 
 ## Sections
 - [Model Arcitecture](#model-architecture)
