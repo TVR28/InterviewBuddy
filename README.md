@@ -12,7 +12,8 @@ InterviewBuddy is an advanced interview assistance tool designed to enhance hiri
 - [Personalised Email Communication](#personalised-email-communication)
 
 ## Model Architecture
-https://github.com/TVR28/InterviewBuddy/blob/main/assets/architecture.jpg
+![architecture](https://github.com/TVR28/InterviewBuddy/assets/91713140/6d739eb6-85e1-437c-a7b4-8eabebfd0ff5)
+
 
 ## Why is it Highly Essential?
 In today's highly competitive job market, the demand for precise and constructive feedback is more critical than ever. InterviewBuddy elevates the interview process by integrating advanced AI technologies to analyze interviews comprehensively. This approach not only refines hiring decisions but also enhances the developmental aspects of interviews. For interviewers, it offers deep insights into a candidate’s suitability, helping to identify the best fit for the organization and reduce the likelihood of costly hiring mistakes. For candidates, it provides clear and actionable feedback, which is vital for personal development and future interview preparations. By fostering a culture of feedback and learning, InterviewBuddy ensures that both parties can grow from each interaction, thereby making the entire recruitment process more transparent, effective, and equitable.
