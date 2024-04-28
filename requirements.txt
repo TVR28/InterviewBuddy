@@ -1,4 +1,5 @@
 streamlit
+streamlit_lottie
 streamlit-option-menu
 python-dotenv
 Pillow
