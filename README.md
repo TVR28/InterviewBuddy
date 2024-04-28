@@ -90,6 +90,8 @@ The inspiration for InterviewBuddy was driven by a glaring need to bridge the si
 
 ![Screenshot (713)](https://github.com/TVR28/InterviewBuddy/assets/91713140/c8a0b07b-93c3-4eb2-bd7a-a9ef71fb8421)
 
+<img width="539" alt="Screen Shot 2024-04-28 at 11 33 39 AM" src="https://github.com/TVR28/InterviewBuddy/assets/50898636/05a9d148-b068-41c0-ba74-57a052328c14">
+
 <img width="1648" alt="Screen Shot 2024-04-27 at 10 56 49 PM" src="https://github.com/TVR28/InterviewBuddy/assets/50898636/9add692a-5220-4dc9-8fa4-7583a9af3207">
 
 <img width="1667" alt="Screen Shot 2024-04-27 at 10 57 34 PM" src="https://github.com/TVR28/InterviewBuddy/assets/50898636/0d940934-9e74-4007-9eda-51aaee6213b1">
