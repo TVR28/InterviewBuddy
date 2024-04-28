@@ -1,17 +1,16 @@
 # InterviewBuddy 👨🏻‍💻📄
+## Transforming Feedback into Growth with AI-Enhanced Interview Insights using AI.
 
-Transforming Feedback into Growth with AI-Enhanced Interview Insights using AI.
+Welcome to InterviewBuddy! 🚀
+
+InterviewBuddy is an advanced interview assistance tool designed to enhance hiring quality and productivity by utilizing AI to provide deep insights into each interview process. Our system automatically generates a transcript from interviews conducted on Google Meet, analyzes it alongside the candidate's resume and interviewer requirements, and seamlessly integrates this information into a newly created candidate profile. Once the interview concludes, InterviewBuddy crafts a detailed feedback report for the interviewer, assessing how well the candidate's responses and profile align with the job role. This analysis aids interviewers in making informed decisions by highlighting strengths and areas for potential improvement. Additionally, if a candidate is not selected, InterviewBuddy generates a personalized feedback report and an email tailored to the candidate, offering constructive feedback on their performance and specific advice on areas to enhance. This feedback is crucial for candidates as it provides clear, actionable insights that can significantly aid in their job search journey, helping them understand and improve on aspects critical to their career progression.
 
 ## Sections
-- [Introduction to the Project](#introduction-to-the-project)
 - [Why is it Highly Essential?](#why-is-it-highly-essential)
 - [What Motivated Us?](#what-motivated-us)
 - [Tools](#tools)
 - [Tasks](#tasks)
 - [Personalised Email Communication](#personalised-email-communication)
-
-## Introduction to the Project
-InterviewBuddy is designed to harness the power of AI to provide actionable insights from interviews. The tool uses AI to transcribe, analyze, and generate feedback from interviews to improve hiring quality and efficiency.
 
 ## Why is it Highly Essential?
 In today's competitive job market, precise and constructive feedback is crucial. InterviewBuddy not only enhances the interview process but also ensures that both interviewers and candidates can learn and grow from each session, making the whole process more transparent and effective.
