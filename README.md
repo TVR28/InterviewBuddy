@@ -12,7 +12,7 @@ InterviewBuddy is an advanced interview assistance tool designed to enhance hiri
 - [Personalised Email Communication](#personalised-email-communication)
 
 ## Model Architecture
-[Image]("https://github.com/TVR28/InterviewBuddy/assets/architecture.jpg")
+[Image](https://github.com/TVR28/InterviewBuddy/assets/architecture.jpg)
 <img width="1000" alt="image" src="https://github.com/TVR28/InterviewBuddy/assets/architecture.jpg">
 
 ## Why is it Highly Essential?
