@@ -1,7 +1,7 @@
 # InterviewBuddy 👨🏻‍💻📄
 Transforming Feedback into Growth with AI-Enhanced Interview Insights using AI.
 
-##Tools
+## Tools
 - `PyPDF2`
 - `streamlit`
 - `EmailMessage`
