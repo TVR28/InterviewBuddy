@@ -4,10 +4,11 @@ InterviewBuddy is an advanced interview assistance tool designed to enhance hiri
 
 
 ## Sections
+- [Model Arcitecture](#model-architecture)
 - [Why is it Highly Essential?](#why-is-it-highly-essential)
 - [What Motivated Us?](#what-motivated-us)
-- [Tools](#tools)
-- [Tasks](#tasks)
+- [Key Tools and Technologies](#Key-Tools-and-Technologies)
+- [Core Features & Functions](#Core-Features-&-Functions)
 - [Personalised Email Communication](#personalised-email-communication)
 
 ## Model Architecture
@@ -19,7 +20,7 @@ In today's highly competitive job market, the demand for precise and constructiv
 ## What Motivated Us?
 The inspiration for InterviewBuddy was driven by a glaring need to bridge the significant communication gap often found between interviewers and candidates. Traditional interviewing methods can leave both parties with unanswered questions and unclear evaluations, which can lead to ineffective hiring decisions and missed opportunities for candidates. We envisioned a tool that not only facilitates but also enriches the dialogue between the two parties. By providing detailed insights and structured feedback based on AI analysis of interview transcripts and related documents, InterviewBuddy aims to create a more informed and fair hiring process. Our goal is to transform how feedback is given and received in interviews, turning every interview into a valuable learning experience that aids in the professional growth of candidates and sharpens the decision-making skills of recruiters. This foundation of understanding and clarity is what we believe will ultimately lead to more successful employment outcomes and foster a more transparent job market.
 
-## Tools
+## Key Tools and Technologies
 - **PyPDF2**
 - **Streamlit**
 - **EmailMessage**
@@ -29,7 +30,7 @@ The inspiration for InterviewBuddy was driven by a glaring need to bridge the si
 - **React**
 - **RSuite**
 
-## Tasks
+## Core Features & Functions
 ### 1. Transcription of the Interview
 - **Tools:** Use APIs or integrations available for platforms like Google Meet and Zoom to automatically transcribe the audio from the interviews.
 - **Storage:** Save the transcriptions in a document format (like .txt or .docx) for easy processing.
